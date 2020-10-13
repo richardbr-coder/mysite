@@ -7,12 +7,21 @@
     <title>Awesome Tailwind Setup</title>
     <link rel="stylesheet" href="/public/styles.css">
     <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
-            
+            html {
+              scroll-behavior: smooth;
+            }
+
+            @media screen and (prefers-reduced-motion: reduce) {
+              html {
+                scroll-behavior: auto;
+              }
+            }
     </style>
 </head>
-<header style="background-size: cover;" class="bg-header flex items-center justify-center h-screen pb-12">
-    <div class="rounded-lg border-gray-300 border-8 bg-white font-serif mx-4 p-4 text-center ">
+<header style="background-size: cover;" class="bg bg-header flex items-center justify-center h-screen pb-12">
+    <div class="rounded-lg border-gray-600 border-8 bg-white font-serif mx-4 p-4 text-center ">
         <p class="italic text-sm">
           Welcome to the digital home of
         </p>
@@ -25,30 +34,79 @@
       </div>
       
 </header>
-
+<section>
+  
+</section>
 <body>
   
     <!--Menu-->
-    <div id="navbar" class="" style="font-family: Palatino">
-      <a href="javascript:void(0)" class="float-left text-gray-100 border-4 text-xl">Richard Randell</a>
-      <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">Contact</a>
-      <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">About</a>
+    <div id="navbar" class="" style="font-family: Palatino" data-aos="" >
+      <a href="javascript:void(0)" class="neumorphic--pressed float-left text-gray-100 border-4 border-gray-500 text-xl">Richard Randell</a>
+      <a href="javascript:void(0)" class="neumorphic--pressed float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">Contact</a>
       <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">Works</a>
       <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">Skills</a>
       <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">Resume</a>
+      <a href="javascript:void(0)" class="float-right text-gray-100 border-4 border-gray-800 text-xl rounded-lg">About</a>
+    </div>
+    <div class=" ghost hidden">  
     </div>
 
-    <!-- component -->
-<div class="p-3 flex-wrap pt-4 pb-20">
-  
-    <div class="mb-20 ">
-       <img class="" src="/public/img/download_Original.png" alt="Richard">
-        <p class=" text-xl md:text-2xl uppercase  ">Words N' Shit</p>
-    </div>
-      
-      
-    
+<div class="text-center bg-gray-200">
+    <h1 class="text" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"></span>ABOUT</h1>
 </div>
+
+
+<!-- component -->
+<div class="">
+  <div class="">
+    <div class="float-left md:grid-cols-2 lg:grid-cols-3 pt-32 pl-48 ">
+      <!-- photo/info card -->
+      <div class="md:col-span-0">
+        <div style="border-radius: 20px;" class="border-2 rounded-full p-6">
+          <div class="mt-6">
+              <div class="font-semibold text-gray-700">
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+                <p>Hi! I'm Richard! lkdanflksnfksndjfbwszlknclsnfm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- component -->
+<div style="height: 20in;" class="bg-white" >
+  <div class="">
+    <div class="float-right md:grid-cols-2 lg:grid-cols-3 pt-32 pr-40" >
+      <!-- photo/info card -->
+      <div class="md:col-span-0">
+        <div class="card-neumorphic p-8">
+          <img class="img-neumorphic block" src="/public/img/download_Original.png" alt="">
+          <div class="mt-6">
+              <div class="font-semibold text-gray-700">
+                Hi! I'm Richard!
+              </div>
+              <div class="text-xs text-gray-600 font-medium border-b border-gray-400 py-5">
+                Founder of code that dad and code that mom...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="bg-quote flex items-center justify-center h-screen pb-12">
         <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
           <p class="font-bold italic text-3xl">
@@ -64,6 +122,10 @@
       
 <!-- navbar sticky js -->
 <script src="/public/js/index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   
 </body>
 </html>
