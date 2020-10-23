@@ -3,7 +3,7 @@ $(document).ready(function() {
     // Transition effect for navbar and back-to-top icon
     $(window).scroll(function() {
       // checks if window is scrolled more than 500px, adds/removes solid class
-      if($(this).scrollTop() > 1100) { 
+      if($(this).scrollTop() > 800) { 
           $('.navbar').addClass('solid');
           $('.back-to-top').addClass('visible'); 
       } else {
