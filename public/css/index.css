@@ -76,7 +76,7 @@ h3,
 h4,
 h5 {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  color: white
+  color: white;
 }
 
 p {
@@ -107,90 +107,57 @@ a:focus {
   z-index: 100;
   margin-bottom: 0;
   border-radius: 0;
-  transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s; 
 }
 
+/* Name in navbar */
 .navbar-brand {
   display: none;
-  margin-top: 10px;
   color: #f0f0e6;
   font-weight: 400;
+  padding: 0%; 
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #f0f0e6;
   font-weight: 500;
   font-size: 1em;
-  text-transform: lowercase;
   margin: 10px 5px 5px 5px;
-  border-radius: 5px;
-}
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:active,
-.navbar-default .navbar-nav>li>a:focus {
+  border-radius: 5px; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
   color: #f0f0e6;
-  border: 1px solid #f0f0e6;
-}
-
-.navbar-default .navbar-nav>li>a:visited {
+  border: 1px solid #f0f0e6; }
+.navbar-default .navbar-nav > li > a:visited {
   color: #f0f0e6;
-  text-decoration: none;
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+  text-decoration: none; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #f0f0e6;
-}
-
+  color: #f0f0e6; }
 .navbar-default .navbar-toggle {
-  border-color: #f0f0e6;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: rgba(210, 214, 216, 0.2);
-  
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  color: #f0f0e6;
-  background-color: #f0f0e6;
-}
-
+  border-color: #f0f0e6; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #173d61; }
+  .navbar-default .navbar-toggle .icon-bar {
+    color: #f0f0e6;
+    background-color: #f0f0e6; }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: rgba(210, 214, 216, 0.2);
-  
-}
+  background-color: #173d61; }
 
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-  background-color: #dbdbdb;
-  /* Adjust menu color */
+  background-color: #173d61;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px #173d61;
-  
-}
-
-.navbar.solid .navbar-brand {
-  display: inline-block;
-  color: #f0f0e6;
-  transition: color 1s ease 0s;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.navbar.solid .navbar-nav>li>a {
-  color: #173d61;
-  /* Navbar text color after transistion */
-  transition: color 1s ease 0s;
-}
-
+  box-shadow: 0 0 4px rgba(7, 55, 74, 0.2); }
+  .navbar.solid .navbar-brand {
+    display: inline-block;
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
+  .navbar.solid .navbar-nav > li > a {
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
 
 .cover {
-  padding: 5% 0 0 0;
+  padding: 4.25% 0 0 0;
 }
 
 .cover.top {
@@ -369,7 +336,6 @@ a:focus {
   /* Set the fixed height of the footer here */
   height: 30px;
   background-color: rgba(210, 214, 216, 0.2);
-  ;
   color: #f0f0e6;
 }
 
@@ -406,7 +372,7 @@ a:focus {
 .bounce {
   animation-iteration-count: infinite;
   animation-duration: .5s;
-  animation: bounce 2.5s ease infinite;
+  animation: bounce 2s ease infinite;
   transform-origin: 50% 50%;
 }
 
@@ -504,7 +470,6 @@ a:focus {
 /* About page title */
 #about {
   background-color: rgba(210, 214, 216, 0.2);
-  ;
 }
 
 #about h2 {
@@ -558,7 +523,6 @@ a:focus {
 
 .about-me .info>p:last-of-type {
   margin-top: 10px;
-
 }
 
 .about-me .info p {
@@ -623,7 +587,7 @@ card pic {
   height: 210px;
   top: -150px;
   left: 21%;
-  border: 7px solid #ffc684;
+  border: 6px solid #ffc684;
   background-image: url("/public/img/_DSC9176-Edit.jpg");
   background-position: 48%;
   box-shadow: 0px 0px 25px -5px rgb(0, 0, 0);
@@ -887,7 +851,7 @@ card info p a {
 /************************/
 /* end of name blink fade in */
 /************************/
-/* */
+/* Begin social media links */
 /************************/
 section {
   width: 40%;
@@ -942,17 +906,162 @@ section .neumorphism .icon-list .icon-item .icon-link i {
 
 
 /************************/
-/* */
+/* End social media links */
 /************************/
-/* */
+/* begin scrolling down arrows */
 /************************/
+.arrows {
+	width: 60px;
+	position: absolute;
+	margin-left: -30px;
+  bottom: 20px;
+}
 
-/************************/
-/* */
-/************************/
-/* */
-/************************/
+.arrows path {
+	stroke: #facc97;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
 
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+/************************/
+/* End scrolling down arrows */
+/************************/
+/* */
+/************************/
+.fade-out {
+  animation: fadeOut ease 2s;
+  -webkit-animation: fadeOut ease 2s;
+  -moz-animation: fadeOut ease 2s;
+  -o-animation: fadeOut ease 2s;
+  -ms-animation: fadeOut ease 2s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
 /************************/
 /* */
 /************************/
