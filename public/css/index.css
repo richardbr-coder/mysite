@@ -887,7 +887,7 @@ section .neumorphism .icon-list .icon-item .icon-link {
   display: flex;
   font-size: 1.8rem;
   text-decoration: none;
-  color: #173d61;;
+  color: #173d61;
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
@@ -1061,6 +1061,7 @@ section .neumorphism .icon-list .icon-item .icon-link i {
   }
   100% {
     opacity:1;
+  }
 }
 /************************/
 /* */
