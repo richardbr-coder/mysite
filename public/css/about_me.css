@@ -1,0 +1,362 @@
+#about {
+    background-color: rgba(210, 214, 216, 0.2);
+  }
+  
+  #about h2 {
+    color: #fff5e4;
+    background-color: #ffc481a6;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px -5px rgb(0, 0, 0);
+    margin-bottom: 100px;
+  
+  }
+  
+  .about-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    /*width: 100%;*/
+  }
+  
+  /*border: 0.5em solid;*/
+  .about-me>div {
+    /*box-sizing: border-box;*/
+  }
+  
+  .about-me .image {
+    float: left;
+    width: 30%;
+    /*height: 600px;*/
+  
+  }
+  
+  .about-me .image img {
+    width: 100%;
+    /*height: 100%;*/
+  }
+  
+  .about-me .info {
+    float: left;
+    width: 65%;
+    margin: 1.5% 2.5% 0 2.5%;
+  }
+  
+  .about-me .info h2 {
+    margin: 20px 0 20px 40px;
+    color: #555;
+  }
+  
+  .about-me .info>p {
+    margin: 0 0 10px 40px;
+  }
+  
+  .about-me .info>p:last-of-type {
+    margin-top: 10px;
+  }
+  
+  .about-me .info p {
+    line-height: 1.5;
+    color: #888;
+  }
+  
+  .about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+  }
+  
+  .about-me .info .hobbies .content {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+  }
+  
+  .about-me .info .hobbies .content h3 {
+    color: #555;
+  }
+  
+  .about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+  }
+  
+  .about-me .info .hobbies .content .icon i {
+    max-width: 100%;
+    padding-top: 10px;
+  }
+  
+  .about-me .info .hobbies .content .text {
+    float: left;
+    width: 84%;
+    margin-left: 2%;
+  }
+  
+  /**************************/
+  /* Begin of Personal Card */
+  /**************************/
+  card {
+    position: relative;
+    display: block;
+    width: 515px;
+    min-height: 200px;
+    max-height: 550px;
+    background: #ffe6ca31;
+    border: 2px solid #ffc684;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -5px black;
+    text-align: center;
+  }
+  
+  card pic {
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 210px;
+    top: -150px;
+    left: 21%;
+    border: 6px solid #ffc684;
+    background-image: url("/public/img/_DSC9176-Edit.jpg");
+    background-position: 48%;
+    box-shadow: 0px 0px 25px -5px rgb(0, 0, 0);
+    background-position: left 0px top px;
+    border-radius: 10px;
+  }
+  
+  card info {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 75px;
+    color: #f1f1f1;
+  }
+  
+  card info name {
+    height: 35px;
+    color: #ffc684;
+  }
+  
+  card info line {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffc684;
+  }
+  
+  card info p {
+    color: #fffbf5;
+    margin-top: 20px;
+    max-width: 450px;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  card info p a {
+    color: #ffc684;
+    text-decoration: none;
+    border-bottom: 1px dotted #ffc684;
+  }
+  
+/************************/
+/* End of Personal Card */
+/************************/
+/* Begin social media links */
+/************************/
+section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 243, 233);
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  section .neumorphism {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    flex-basis: 85%;
+    max-width: 500px;
+    background: rgb(250, 243, 233);
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 1px #fff, inset 4px 4px 2px rgba(94, 104, 121, 0.692);
+  }
+  
+  section .neumorphism .icon-list {
+    width: 100%;
+    padding: 0 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  section .neumorphism .icon-list .icon-item {
+    list-style: none;
+    margin: 5px;
+  }
+  
+  section .neumorphism .icon-list .icon-item .icon-link {
+    display: flex;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #173d61;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2), -1rem -1rem 2rem transparent;
+  }
+  
+  section .neumorphism .icon-list .icon-item .icon-link:hover {
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2), -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.95);
+  }
+  
+  section .neumorphism .icon-list .icon-item .icon-link:focus {
+    box-shadow: inset 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.2), inset -0.125rem -0.125rem 0.25rem rgba(255, 255, 255, 0.95);
+  }
+  
+  section .neumorphism .icon-list .icon-item .icon-link i {
+    margin: auto;
+    text-shadow: 1px 1px 0px #fff, -1px -1px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+/**************************/
+/* End social media links */
+/**************************/
+/* End social media links */
+/**************************/
+.custom-btn {
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-9 {
+    border: none;
+    z-index: 2;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+      -4px -4px 6px 0 rgba(116, 125, 136, .2),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+/**************************/
+/*  */
+/**************************/
+/* Begin adjusting sections for screen size */
+/**************************/
+@media screen and (min-width: 1400px) {
+  .md-lg {
+    min-width: 45%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .md {
+    height: 1800px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .md-width {
+    width: 90%;
+  }
+@media screen and (max-width: 1400px) {
+  .md-stacking {
+    float: right;
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .md-about-bottom {
+    float: left;
+    text-align: center;
+    width: 10%;
+    
+  }
+}
+@media screen and (max-width: 800px) {
+  .md-pic {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .md-about-bottom-hidden {
+    visibility: hidden;
+    display: none;
+  }
+}
+/**************************/
+/* End adjusting sections for screen size */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
+
+/**************************/
+/*  */
+/**************************/
+/*  */
+/**************************/
