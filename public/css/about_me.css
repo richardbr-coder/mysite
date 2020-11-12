@@ -275,12 +275,17 @@ section {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
   .md-about-bottom {
     float: left;
     text-align: center;
     width: 10%;
-    
+    margin-left: auto; 
+    text-align: center; 
+    font-size: xx-large;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: transparent; 
+    color: #ffc684;
   }
 }
 @media screen and (max-width: 800px) {
@@ -292,7 +297,10 @@ section {
 @media screen and (min-width: 1400px) {
   .md-about-bottom-hidden {
     visibility: hidden;
-    display: none;
+    display: none!important;
+    visibility:hidden;
+    font-size: 0%;
+    height: 0%;
   }
 }
 /**************************/
