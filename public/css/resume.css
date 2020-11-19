@@ -1,0 +1,46 @@
+.resume-svg{
+    margin-top: 200px;
+    border-radius: 15px;
+}
+.downlaod-button{
+    height: 600px;
+    width: 600px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.text-posistion{
+    height: 600px;
+    width: auto;
+    font-size: 100px;
+}
+.triangle {
+    display: block;
+    height: auto;
+    position: absolute;
+    -webkit-transform: translate(-20%, -300px);
+            transform: translate(-20%, -300px);
+    width: 1200px;
+  }
+  @media (max-width: 1024px) {
+    .triangle {
+      width: 800px;
+      -webkit-transform: translate(-20%, -300px);
+              transform: translate(-20%, -300px);
+    }
+  }
+  @media (max-width: 700px) {
+    .triangle {
+      width: 450px;
+      -webkit-transform: translate(-20%, -175px);
+              transform: translate(-20%, -175px);
+    }
+  }
+  @media (max-width: 700px) and (orientation: landscape) {
+    .triangle {
+      width: 400px;
+      -webkit-transform: translate(-10%, -250px);
+              transform: translate(-10%, -250px);
+    }
+  }
