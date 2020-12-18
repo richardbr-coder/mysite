@@ -13,6 +13,7 @@
     "aos": "^2.3.4",
     "jquery": "^3.5.1",
     "live-server": "^1.2.1",
-    "tailwindcss": "^1.8.13"
+    "tailwindcss": "^1.8.13",
+    "twilio": "^3.52.0"
   }
 }
