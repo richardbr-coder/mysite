@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/richard/Coding/GitHub repos/mysite/.venv/bin/python3.9"
+    "python.pythonPath": "/Users/richard/Coding/GitHub repos/mysite/.venv/bin/python3.9",
+    "liveServer.settings.port": 5501
 }
