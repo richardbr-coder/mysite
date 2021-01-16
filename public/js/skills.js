@@ -1,21 +1,21 @@
 //skills chart JS
 const ctx = document.getElementById("myChart").getContext("2d");
 const data = {
-  labels: ["Website Design", "UX Design", "Marketing", "Javascript", "HTML & CSS", "Ruby on Rails", "Tech Demos", "Leading Teams"],
+  labels: ["PHP", "UX Design", "Python", "Javascript", "HTML & CSS", "Ruby on Rails", "SQL", "C#"],
   datasets: [{
-    label: "Percieved Interest",
+    label: "Relative Skill",
     fillColor: "rgba(43,176,212,.4)",
     strokeColor: "rgba(43,176,212,1)",
     pointColor: "rgba(43,176,212,1)",
     pointHighlightStroke: "rgba(43,176,212,1)",
-    data: [100, 70, 85, 90, 95, 75, 90, 100]
+    data:[98, 85, 87, 85, 90, 80, 90, 96]
   }, {
-    label: "Relative Skill",
+    label: "Percieved Interest",
     fillColor: "rgba(140,200,50,.4)",
     strokeColor: "rgba(140,200,50,1)",
     pointColor: "rgba(140,200,50,1)",
     pointHighlightStroke: "rgba(140,200,50,1)",
-    data: [85, 75, 70, 80, 85, 60, 75, 50]
+    data: [100, 60, 70, 85, 95, 85, 80, 90]
   }]
 };
 new Chart(ctx).Radar(data, {
