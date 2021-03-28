@@ -14,19 +14,27 @@ $(document).ready(function () {
   // Scrolling effect for Arrow icons
   $("#scrollIcon").click(function (e) {
     e.preventDefault();
-    $.scrollTo($("#about"), 1000);
+    $.scrollTo($("#about1"), 1000);
   });
   $("#nav-about").click(function (e) {
     e.preventDefault();
-    $.scrollTo($("#about"), 1000);
+    $.scrollTo($("#about1"), 1000);
   });
-  $("#nav-portfolio").click(function (e) {
+  $("#nav-skills").click(function (e) {
     e.preventDefault();
-    $.scrollTo($("#portfolio"), 1000);
+    $.scrollTo($("#skills1"), 1000);
+  });
+  $("#nav-photography").click(function (e) {
+    e.preventDefault();
+    $.scrollTo($("#photography1"), 1000);
+  });
+  $("#nav-development").click(function (e) {
+    e.preventDefault();
+    $.scrollTo($("#development1"), 1000);
   });
   $("#nav-contact").click(function (e) {
     e.preventDefault();
-    $.scrollTo($("#contact"), 1000);
+    $.scrollTo($("#contact1"), 1000);
   });
   $(".navbar-brand").click(function (e) {
     e.preventDefault();
@@ -193,3 +201,6 @@ function documentReady() {
     $(".effect-text-container h1").text(getRandomText());
   }
 }
+
+
+

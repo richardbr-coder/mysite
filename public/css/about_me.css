@@ -1,13 +1,30 @@
+/************************/
+/* section */
+/************************/
+#about1{
+  padding-top: 50px;
+  background-color: rgba(210, 214, 216, 0.2);
+}
+
+/************************/
+/* About card */
+/************************/
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
 * {
   box-sizing: border-box;
 }
 
+body {
+  color: #2b2c48;
+  font-family: "Jost", sans-serif;
+  background-position: center;
+  background-attachment: fixed;
+ 
+}
+
 .card {
   max-width: 340px;
   margin: auto;
-  margin-top: 250px;
-  margin-bottom: 250px;
   overflow-y: auto;
   position: relative;
   z-index: 1;
@@ -118,6 +135,7 @@
 }
 
 .card-jobtitle {
+  padding-top: 100px;
   position: absolute;
   bottom: 0;
   font-size: 11px;
@@ -165,7 +183,7 @@
   margin-bottom: 30px;
 }
 .card-social svg {
-  fill: #7d7e81;
+  fill: #a5b5ce;
   width: 16px;
   display: block;
   transition: 0.3s;
@@ -179,12 +197,12 @@
   align-items: center;
   justify-content: center;
   transition: 0.3s;
-  background-color: rgba(95, 147, 226, 0.438);
+  background-color: rgba(93, 133, 193, 0.05);
   border-radius: 50%;
   margin-right: 10px;
 }
 .card-social a:hover svg {
-  fill: #1c4bccc0;
+  fill: #637faa;
 }
 .card-social a:last-child {
   margin-right: 0;
@@ -219,7 +237,7 @@
 }
 .card-buttons button.is-active, .card-buttons button:hover {
   color: #2b2c48;
-  border-bottom: 3px solid #84b5ff;
+  border-bottom: 3px solid #8a84ff;
   background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
 }
 
@@ -290,7 +308,7 @@
   text-indent: -35px;
   border-radius: 50%;
   color: rgba(134, 134, 134, 0.7);
-  background: linear-gradient(to bottom, #a0aee3 0%, #516acc 100%);
+  background: linear-gradient(to bottom, #55a4ffa9 0%, #16319e7c 100%);
 }
 
 .card-item-title {
@@ -335,7 +353,7 @@
 .contact-me {
   border: 0;
   outline: none;
-  background: linear-gradient(to right, rgba(223, 196, 100, 0.705) 0%, rgba(48, 138, 240, 0.733) 96%);
+  background: linear-gradient(to right, rgba(83, 200, 239, 0.8) 0%, rgba(81, 106, 204, 0.8) 96%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   color: #fff;
   padding: 12px 16px;
@@ -348,50 +366,3 @@
   font-family: "Jost", sans-serif;
   transition: 0.3s;
 }
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/
-
-/**************************/
-/*  */
-/**************************/
-/*  */
-/**************************/

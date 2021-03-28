@@ -8,6 +8,7 @@
   text-align: center;
 }
 
+
 .centered {
   float: none;
   margin-left: auto;
@@ -59,6 +60,7 @@
 html {
   position: relative;
   height: 100%;
+  
 }
 
 img {
@@ -114,7 +116,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #f0f0e6;
+  color: #f0f0e6; 
   font-weight: 500;
   font-size: 1em;
   margin: 10px 5px 5px 5px;
